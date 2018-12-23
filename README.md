@@ -54,7 +54,7 @@ Once you have Node.js, you need to initialize your bot folder with NPM, or the N
 ![powershell](https://user-images.githubusercontent.com/32719081/50377169-40d79d00-05e6-11e9-82dd-43de052ac008.PNG)
 
 Type the following commands:
-* `npm init y`
+* `npm init -y`
 * `npm install discord.js`
 
 You can tell the commands worked if a new folder `node_modules` and a `package.json` file were created in your folder.
