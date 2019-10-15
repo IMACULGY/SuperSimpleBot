@@ -10,7 +10,10 @@ To further develop your bot from here, use [this tutorial](https://anidiots.guid
 ## Contents
 This repository has two files, `config.json` and `index.js`, that are necessary for your bot to run.
 * `config.json` holds your bot's token and prefix to call the command. There is a token in the file already, but that MUST be changed!
-* `index.js` holds all of the bot's code; in this case, what to say when a user enters the command. The command is `!ping`, and the bot will respond `pong!`
+* `index.js` holds all of the bot's code; in this case, what to say when a user enters the command. There are 3 commands, each with their own response:
+  * `!ping` → `pong!`
+  * `!bada-bing` → `bada-boom!`
+  * `!creeper` → `aww man`
 
 ### Downloading the Files
 In order to run the bot, you will need to download the files from GitHub to your local machine. In the main page of the repository, click on the green "Clone or Download" button. Click on "Download ZIP" and extract the files once they have been downloaded to the machine (You can also clone the repository, if you know how to do that). You can move the folder inside to whatever location you would like. You can alternatively only copy `config.json` and `index.js`, but make sure they are in their own folder on your machine.
