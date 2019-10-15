@@ -34,8 +34,14 @@ client.on("message", (message) => {
     const command = args.shift().toLowerCase();
 
     // If the command is "ping", send "pong!" to the same channel or DM.
+    // If the command is "bada-bing", send "bada-boom!"
+    // If the command is "creeper", send "aww man"
     if (command === "ping") {
         message.channel.send("pong!");
+    } else if (command === "bada-bing") {
+        message.channel.send("bada-boom!");
+    } else if (command === "creeper") {
+        message.channel.send("aww man");
     }
 });
  
